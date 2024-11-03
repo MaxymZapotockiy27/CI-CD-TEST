@@ -24,7 +24,7 @@ jobs:
         run: dotnet test --no-build --verbosity normal
 
       - name: Build & push Docker image
-        uses: mr-smithers-excellent/docker-build-push@v6
+        uses: mr-smithers-excellent/docker-build-push@v4
         with:
           image: maksik2107/mydocker
           registry: docker.io
