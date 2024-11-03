@@ -30,5 +30,4 @@ jobs:
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          dockerfile: Dockerfile.ci  # Specify your Dockerfile name if it's different
-          context: .  # Set to the directory containing the Dockerfile
+           # Set to the directory containing the Dockerfile
