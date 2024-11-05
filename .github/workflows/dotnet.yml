@@ -30,4 +30,6 @@ jobs:
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
+          dockerfile: Convertator/Dockerfile.dockerfile # вкажи шлях до Dockerfile
+          context: ./Convertator # встанови контекст на папку з усіма файлами
            # Set to the directory containing the Dockerfile
